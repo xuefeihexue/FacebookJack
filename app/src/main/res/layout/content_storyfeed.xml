@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app2:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="project.cegep.com.facebook.StoryFeedActivity"
+    tools:context=".sahilPackage.StoryFeedActivity"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="81dp"
     tools:showIn="@layout/activity_storyfeed">
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
-                android:id="@+id/rv"
+                android:id="@+id/rv1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
