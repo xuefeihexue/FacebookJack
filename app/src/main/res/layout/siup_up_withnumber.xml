@@ -30,7 +30,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginStart="25dp"
         android:text="Use your Email address"
-        android:textColor="#000" />
+        android:textColor="#000"
+        android:id="@+id/phone"
+        android:onClick="phoneRequest"/>
 
 
     <Button
