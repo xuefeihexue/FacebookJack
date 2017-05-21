@@ -14,7 +14,7 @@ public class postingPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_posting_page);
-        TextView view=(TextView)findViewById(R.id.textView2);
+        TextView view=(TextView)findViewById(R.id.mutualFriendsCount);
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
