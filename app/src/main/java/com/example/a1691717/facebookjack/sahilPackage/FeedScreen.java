@@ -50,7 +50,7 @@ public class FeedScreen extends Fragment {
             public void onRefresh() {
                 swipeContainer.setRefreshing(false);
 
-                Toast.makeText(getContext(),"Feed Refreshed",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(),"Feed Refreshed.",Toast.LENGTH_SHORT).show();
             }
         });
         // Configure the refreshing colors
