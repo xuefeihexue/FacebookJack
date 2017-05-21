@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="?attr/colorPrimary">
+
+        <ImageView
+            android:src="@drawable/facebookicon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:hint="Email or phone number" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:hint="password" />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:background="?attr/colorPrimary"
+        android:text="Log in"
+        android:textColor="#E0E0E0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Forgot Password?"
+        android:layout_gravity="center_horizontal"
+        android:textColor="?attr/colorPrimary" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:textColor="?attr/colorPrimary" />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="25dp"
+        android:text="Log in"
+        android:textColor="?attr/colorPrimary"/>
+
+</LinearLayout>
