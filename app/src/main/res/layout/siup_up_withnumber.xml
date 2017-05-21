@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="100dp"
         android:text="What's Your Mobile Number?"
         android:layout_gravity="center_horizontal"
         android:textColor="?attr/colorPrimary" />
@@ -15,41 +15,30 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginStart="25dp"
-        android:hint="Email or phone number" />
-
-    <EditText
-        android:layout_width="320dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="25dp"
-        android:hint="password" />
+        android:hint="Enter your phone number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="You'll use this number when you log in and if you ever
+                       need to reset your password"
+        android:layout_gravity="center_horizontal"
+        android:textColor="?attr/colorPrimary" />
     <Button
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginStart="25dp"
-        android:background="?attr/colorPrimary"
-        android:text="Log in"
-        android:textColor="#E0E0E0"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Forgot Password?"
-        android:layout_gravity="center_horizontal"
-        android:textColor="?attr/colorPrimary" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Back"
-        android:layout_gravity="center_horizontal"
-        android:textColor="?attr/colorPrimary" />
+        android:text="Use your Email address"
+        android:textColor="#000" />
+
+
     <Button
         android:layout_width="320dp"
         android:layout_height="40dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="300dp"
         android:layout_marginStart="25dp"
-        android:text="Log in"
+        android:text="Already have an account?"
         android:textColor="?attr/colorPrimary"/>
 
 </LinearLayout>
