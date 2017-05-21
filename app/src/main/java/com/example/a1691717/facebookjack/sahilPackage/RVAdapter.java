@@ -63,7 +63,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.FeedViewHolder>{
         FeedViewHolder(View itemView) {
             super(itemView);
             cv = (CardView)itemView.findViewById(R.id.cv);
-            feedTitle = (TextView)itemView.findViewById(R.id.mutualFriendsCount);
+            feedTitle = (TextView)itemView.findViewById(R.id.textView2);
             feedTime = (TextView)itemView.findViewById(R.id.textView);
             feedDescription = (TextView)itemView.findViewById(R.id.textView3);
             likes = (TextView)itemView.findViewById(R.id.textView4);
